@@ -1,0 +1,16 @@
+{
+  "name": "identityserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 61606 --cors -o -c-1"
+  },
+  "dependencies": {
+    "oidc-client": "^1.4.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
